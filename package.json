@@ -1,0 +1,24 @@
+{
+  "name": "redux-cart-project",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://github.com/HamisLord/redux-cart-project.git",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "redux": "latest",
+    "react-redux": "latest",
+    "gh-pages": "latest"
+  },
+  "devDependencies": {}
+}
